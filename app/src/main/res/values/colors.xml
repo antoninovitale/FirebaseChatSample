@@ -1,0 +1,10 @@
+<resources>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="alt_green">#4ABB35</color>
+    <color name="blue">#0080FF</color>
+    <color name="l_blue">#3BC5EB</color>
+    <color name="l_gray">#B8B8B8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

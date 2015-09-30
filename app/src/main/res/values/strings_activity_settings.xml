@@ -1,0 +1,36 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">N/A</string>
+
+    <string name="pref_title_status">Status</string>
+    <string name="pref_default_status">0</string>
+    <string name="pref_title_address">Location</string>
+    <string name="pref_default_address">N/A</string>
+    <string name="pref_title_profession">Role</string>
+    <string name="pref_default_profession">N/A</string>
+
+    <string name="pref_display_name">pref_display_name</string>
+    <string name="pref_status">pref_status</string>
+    <string name="pref_address">pref_address</string>
+    <string name="pref_profession">pref_profession</string>
+
+    <string-array name="pref_status_titles">
+        <item>Unknown</item>
+        <item>Low Battery</item>
+        <item>Driving</item>
+        <item>In a meeting</item>
+        <item>Free</item>
+    </string-array>
+
+    <string-array name="pref_status_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+</resources>

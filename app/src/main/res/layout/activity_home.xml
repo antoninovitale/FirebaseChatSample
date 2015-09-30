@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.fleetmatics.chat.activity.HomeActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/divider"
+            android:columnWidth="100dp"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:listSelector="@drawable/home_button_selector"
+            android:numColumns="auto_fit"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/clock_in_button"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@color/l_gray" />
+
+        <Button
+            android:id="@+id/clock_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:drawableLeft="@drawable/ic_clockin_icon"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/green_button_selector"
+            android:text="@string/clock_in_label"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

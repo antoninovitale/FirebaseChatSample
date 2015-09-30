@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FM Chat</string>
+    <string name="timestamp_label">Received: </string>
+    <string name="empty_list_text">The list is empty</string>
+    <string name="last_online_label">Last online: </string>
+    <string name="sent_timestamp_label">Sent: </string>
+    <string name="title_chatitem_detail">Chat</string>
+    <string name="user_status_label">Status: </string>
+    <string name="user_label">User: </string>
+    <string name="title_activity_home">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="clock_in_label">Clock In</string>
+
+</resources>
